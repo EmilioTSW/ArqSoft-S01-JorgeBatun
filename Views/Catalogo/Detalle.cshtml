@@ -1,0 +1,17 @@
+﻿@model Catalogo.Models.Item
+
+@{
+    ViewData["Title"] = "Detalle";
+}
+
+<section class="detalle-card animar">
+    <span class="badge">@Model.Genero</span>
+
+    <h1>@Model.Titulo</h1>
+
+    <p><strong>Consola:</strong> @Model.Consola</p>
+    <p><strong>Año:</strong> @Model.Ano</p>
+    <p><strong>Descripción:</strong> @Model.Descripcion</p>
+
+    <a asp-action="Index" class="btn-neon">&larr; Volver al catálogo</a>
+</section>
