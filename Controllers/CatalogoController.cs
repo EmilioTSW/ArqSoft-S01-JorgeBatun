@@ -16,6 +16,7 @@ namespace Catalogo.Controllers
                 Consola = "PlayStation 2",
                 Descripcion = "Videojuego que trata de un cazador de demonios llamado Dante."
             },
+
             new Item
             {
                 Id = 2,
@@ -25,6 +26,7 @@ namespace Catalogo.Controllers
                 Consola = "PlayStation",
                 Descripcion = "Videojuego de acción y exploración protagonizado por Alucard."
             },
+
             new Item
             {
                 Id = 3,
@@ -33,6 +35,26 @@ namespace Catalogo.Controllers
                 Ano = 2017,
                 Consola = "PlayStation 4",
                 Descripcion = "Videojuego de acción y rol ambientado en un mundo postapocalíptico."
+            },
+
+            new Item
+            {
+                Id = 4,
+                Titulo = "Rust",
+                Genero = "Survival",
+                Ano = 2018,
+                Consola = "PC",
+                Descripcion = "Videojuego de supervivencia multijugador donde los jugadores deben recolectar recursos y sobrevivir."
+            },
+
+            new Item
+            {
+                Id = 5,
+                Titulo = "Halo Reach",
+                Genero = "Shooter",
+                Ano = 2010,
+                Consola = "Xbox 360",
+                Descripcion = "Videojuego de disparos en primera persona que cuenta la caída del planeta Reach."
             }
         };
 
